@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/377769.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+h2::first-letter{
+    text-transform: capitalize;
+}
+
+.player-box-wrapper{
+    width: 50%;
+    height: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: turquoise; */
+    margin-bottom: -2px;/* não deixa de ser um margim bottom hahaha,foi só pra colar os dois */
+}
+
+.winner-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.winner-box{
+    background-color: #007acc52;
+    padding: 15px 40px 15px 40px;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.name-player-1{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.name-player-1::placeholder{
+    color: #ffffff;
+}
+.name-player-2{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.name-player-2::placeholder{
+    color: #ffffff;
+}
+
+/* .player-name-wrapper input{
+    width: 243px;
+    height: 70px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #007acc;
+    border-radius: 8px 0 0 0;
+    border: none;
+    outline: 1px solid #007acc49;/*num sei por que causas motivos razões ou circunstancias nao ta funucinando */
+/* } */
+
+
+/* .player-name-wrapper input:focus{
+    background-color: #007acc49;
+    color: #ffffff;
+    transition-duration: 700ms;
+} */
+
+/* .player-name-wrapper ::placeholder{
+    color: #007acc;
+    font-weight: 600;
+}
+ */
+/* .player-name-wrapper--border input{
+    border-radius: 0 8px 0 0;
+} */ 
+
+/* nao ta funcionando porque? era pra ficar branco o texto quando clicado
+.player-name-wrapper ::placeholder :hover{
+    color: #ffffff;
+}
+*/
+.winner-box::first-letter{
+    text-transform: capitalize;
+}
+
+.players-scoreboard-wrapper{
+    width: 100%;
+    height: 128px;
+    background-color: #007acc49;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 38px;
+    color: #ffffff;
+    border-radius: 17px;
+    padding: 0 30px 0 30px;
+    margin-bottom: 56px;
+}
+
+.players-scoreboard-wrapper input{
+    width: 20%;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.versus{
+    font-size: 58px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.score{
+    padding: 13px;
+    font-size: 90px;
+    font-weight: 900;
+    background-color: #ffffff;
+    color: #007acc;
+    border-radius: 17px;
+}
+
+.battlefield-wrapper{
+    width: 100%;
+    max-width: 1600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 66px 0 66px;
+    margin-bottom: 20px;
+}
+
+.atacks-box{
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.button-deafult-wrapper{
+    width: 220px;
+    height: 80px;
+    background-color: transparent;
+}
+
+.button-deafult{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #007acc;
+    border-radius: 17px;
+}
+.button-deafult:hover{
+    background-color: #ffffff7e;
+    color: #007acc;
+    border: 2px solid #007acc;
+}
+
+.button-deafult--font{
+    font-size: 44px;
+}
+
+.button-deafult--font--start-reset{
+    font-size: 33px;
+}
+
+.button-default--reset--start-wrapper{
+    width: 238px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.button-deafult--font{
+    font-size: 33px;
+}
+
+.button-default--reset--start-wrapper{
+    width: 238px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.button-deafult-wrapper--name{
+    width: 40px;
+}
+
+.field-wrapper{
+    width: 1000px;
+    height: 100%;
+    background-color: #007acc5b;
+    color: #ffffff;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 104px;
+    font-weight: 900;
+}
+
+.player-field{
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-field img{
+    width: 70%;
+    height: 70%;
+}
+
+.start-reset-wrapper{
+    width: 100%;
+    max-width: 1600px;
+    height: 69px;
+    padding: 0 450px 0 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.field--border{
+    background-color: darkorchid;
+}
+
+*{
+    box-sizing: border-box;
+}
