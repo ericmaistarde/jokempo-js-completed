@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <title>jokempo</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>jokempo</h1>
+        <h2>aperte "iniciar" para começar a jogar</h2>
+        <!-- <div class="player-name-wrapper">
+            <input type="text" placeholder="player 1" id="player-name-1">
+        </div> -->
+        <div class="winner-wrapper">
+            <div class="winner-box">comece a jogar</div>
+        </div>
+        <!-- <div class="player-name-wrapper player-name-wrapper--border">
+            <input type="text" placeholder="player 2" id="player-name-2">
+        </div> -->
+        <form class="player-box-wrapper">
+            <div class="players-scoreboard-wrapper">
+                <input class="name-player-1" placeholder="player 1" />
+                <!-- <div class="button-deafult-wrapper button-deafult-wrapper--name">
+                    <button class="button-deafult button-deafult--name--2">ok</button>
+                </div> -->
+                <div class="score score-1">00</div>
+                <span class="versus">vs</span>
+                <div class="score score-2">00</div>
+                <!-- <div class="button-deafult-wrapper button-deafult-wrapper--name"> -->
+                    <!-- <button class="button-deafult button-deafult--name--1">ok</button> -->
+                <!-- </div> -->
+                <input class="name-player-2" placeholder="player 2" />
+            </div>
+        </form>
+        <div class="battlefield-wrapper">
+            <div class="atacks-box">
+                <div class="button-deafult-wrapper">
+                    <button class="button-deafult button-deafult--font button-stone-1">stone</button>
+                </div>
+                <div class="button-deafult-wrapper">
+                    <button class="button-deafult button-deafult--font button-paper-1">papel</button>
+                </div>
+                <div class="button-deafult-wrapper">
+                    <button class="button-deafult button-deafult--font button-scissors-1">tesoura</button>
+                </div>
+            </div>
+            <div class="field-wrapper">
+                <div class="player-field field-1"></div>
+                <span>vs</span>
+                <div class="player-field field-2"></div>
+            </div>
+            <div class="atacks-box">
+                <div class="button-deafult-wrapper">
+                    <button class="button-deafult button-deafult--font button-stone-2">stone</button>
+                </div>
+                <div class="button-deafult-wrapper">
+                    <button class="button-deafult button-deafult--font button-paper-2">papel</button>
+                </div>
+                <div class="button-deafult-wrapper">
+                    <button class="button-deafult button-deafult--font button-scissors-2">tesoura</button>
+                </div>
+            </div>
+        </div>
+        <div class="start-reset-wrapper">
+            <div class="button-default--reset--start-wrapper">
+                <button class="button-deafult button-deafult--font--start-reset button-start">iniciar</button>
+            </div>
+            <div class="button-default--reset--start-wrapper">
+                <button class="button-deafult button-deafult--font--start-reset button-reset">resetar</button>
+            </div>
+        </div>
+    </main>
+    <script src="./src/script/script.js"></script>
+</body>
+
+</html>
